@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                  'Evan Cordell'       => 'http://github.com/ecordell',
                  'Greg Combs'         => 'http://github.com/grgcombs' }
   s.source   = { :git => 'https://github.com/zhen9ao/ActionSheetPicker.git', :tag => '0.0.2' }
-  s.platform = :ios
+  s.platform = :ios, '5.0'
   s.source_files = 'ActionSheetPicker.h', 'Pickers/*.{h,m}' 
 
   s.framework = 'UIKit'
