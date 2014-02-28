@@ -35,7 +35,7 @@
 @property (nonatomic, unsafe_unretained) id target;
 @property (nonatomic, assign) SEL successAction;
 @property (nonatomic, assign) SEL cancelAction;
-@property (nonatomic, strong) UIActionSheet *actionSheet;
+@property (nonatomic, strong, readwrite) UIActionSheet *actionSheet;
 @property (nonatomic, strong) UIPopoverController *popOverController;
 @property (nonatomic, strong) NSObject *selfReference;
 
